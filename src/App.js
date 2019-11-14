@@ -5,7 +5,8 @@ import "./App.css";
 // import CakeContainer from "./components/CakeContainer";
 // import IceCreamContainer from "./components/IceCreamContainer";
 import HooksCakeContainer from "./components/HooksCakeContainer";
-import HooksIceCreamContainer from "./components/HooksIceCreamComponent";
+import HooksIceCreamContainer from "./components/HooksIceCreamContainer";
+import HooksWaffleContainer from "./components/HooksWaffleContainer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className="App">
         <HooksCakeContainer />
         <HooksIceCreamContainer />
+        <HooksWaffleContainer />
         {/* <CakeContainer /> */}
         {/* <IceCreamContainer /> */}
       </div>
